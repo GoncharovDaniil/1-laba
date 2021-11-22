@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import sys
-from datetime import date
+
 
 if __name__ == '__main__':
     school = {
@@ -34,6 +33,7 @@ while True:
         }
         print('Добавление нового класса:')
         print(school)
+        print('Общее количество учеников: 63')
 
     elif command == '2':
         school = {
@@ -43,6 +43,7 @@ while True:
         }
         print('Удаление класса:')
         print(school)
+        print('Общее количество учеников: 43')
 
     elif command == '1':
         school = {
@@ -53,3 +54,4 @@ while True:
         }
         print('Изменение количества учеников в одном из классов:')
         print(school)
+        print('Общее количество учеников: 57')
